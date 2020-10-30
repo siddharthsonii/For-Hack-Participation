@@ -13,6 +13,12 @@ if (file_exists('demos/' . $request . '.html')) {
 
   include('includes/header.php');
   echo $file;
+    include('includes/header.php');
+  echo $file;
+  include('includes/footer.php');
+} else {
+  header("HTTP/1.0 404 Not Found");
+  echo 'File not found';
   include('includes/footer.php');
 } else {
   header("HTTP/1.0 404 Not Found");
@@ -20,3 +26,21 @@ if (file_exists('demos/' . $request . '.html')) {
 }
 
 ?>
+  include('includes/header.php');
+  echo $file;
+  include('includes/footer.php');
+} else {
+  header("HTTP/1.0 404 Not Found");
+  echo 'File not found';
+  include('includes/header.php');
+  echo $file;
+  include('includes/footer.php');
+} else {
+  header("HTTP/1.0 404 Not Found");
+  echo 'File not found';
+  include('includes/header.php');
+  echo $file;
+  include('includes/footer.php');
+} else {
+  header("HTTP/1.0 404 Not Found");
+  echo 'File not found';
