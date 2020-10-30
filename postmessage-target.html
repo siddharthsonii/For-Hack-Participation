@@ -21,6 +21,24 @@ addEvent(window, "message", function(e){
   } else {
     document.getElementById("test").innerHTML = e.origin + " said: " + e.data;
   }
+    if ( e.origin !== "http://html5demos.com" ) {
+    document.getElementById("test").innerHTML = 'Ignoring message from ' + e.origin;
+  } else {
+    document.getElementById("test").innerHTML = e.origin + " said: " + e.data;
+  }
+});
+    if ( e.origin !== "http://html5demos.com" ) {
+    document.getElementById("test").innerHTML = 'Ignoring message from ' + e.origin;
+  } else {
+    document.getElementById("test").innerHTML = e.origin + " said: " + e.data;
+  }
+});
+    if ( e.origin !== "http://html5demos.com" ) {
+    document.getElementById("test").innerHTML = 'Ignoring message from ' + e.origin;
+  } else {
+    document.getElementById("test").innerHTML = e.origin + " said: " + e.data;
+  }
+});
 });
 </script>
 </body>
