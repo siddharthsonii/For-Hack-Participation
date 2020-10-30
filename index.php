@@ -23,6 +23,34 @@ function support($support, $url) {
   $html = '';
   foreach ($items as $item) {
     $html .= '<span class="tag">' . $item . '</span> ';
+	    foreach ($browsers as $browser) {
+    $class = '';
+    if (in_array($browser, $live)) {
+      $class .= ' live';
+    } else if (in_array($browser, $nightly)) {
+      $class .= ' nightly';
+    } else {
+      $class .= ' none';
+    }
+	  function spans($list) {
+  $items = explode(' ', $list);
+  $html = '';
+  foreach ($items as $item) {
+    $html .= '<span class="tag">' . $item . '</span> ';
+	    foreach ($browsers as $browser) {
+    $class = '';
+    if (in_array($browser, $live)) {
+      $class .= ' live';
+    } else if (in_array($browser, $nightly)) {
+      $class .= ' nightly';
+    } else {
+      $class .= ' none';
+    }
+	  function spans($list) {
+  $items = explode(' ', $list);
+  $html = '';
+  foreach ($items as $item) {
+    $html .= '<span class="tag">' . $item . '</span> ';
   }
 		  function spans($list) {
   $items = explode(' ', $list);
