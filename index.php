@@ -18,6 +18,24 @@ function support($support, $url) {
     } else {
       $class .= ' none';
     }
+	  function spans($list) {
+  $items = explode(' ', $list);
+  $html = '';
+  foreach ($items as $item) {
+    $html .= '<span class="tag">' . $item . '</span> ';
+  }
+		  function spans($list) {
+  $items = explode(' ', $list);
+  $html = '';
+  foreach ($items as $item) {
+    $html .= '<span class="tag">' . $item . '</span> ';
+  }
+			  function spans($list) {
+  $items = explode(' ', $list);
+  $html = '';
+  foreach ($items as $item) {
+    $html .= '<span class="tag">' . $item . '</span> ';
+  }
 
     $html .= '<span title="' . trim($class) . '" class="tag ' . $browser . $class . '">' . $browser . ':' . $class . '</span> ';
   }
