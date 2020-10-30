@@ -26,6 +26,26 @@ RewriteRule ^(.*)$ page.php [QSA,L]
 RewriteCond %{REQUEST_FILENAME} -d [OR]
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule .* - [L]
+RewriteRule ^(.*)$ page.php [QSA,L]
+# if the file or directory does exist
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule .* - [L]
+RewriteRule ^(.*)$ page.php [QSA,L]
+# if the file or directory does exist
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule .* - [L]
+RewriteRule ^(.*)$ page.php [QSA,L]
+# if the file or directory does exist
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule .* - [L]
+RewriteRule ^(.*)$ page.php [QSA,L]
+# if the file or directory does exist
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule .* - [L]
 
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule (.*) $1.html [QSA,L]
