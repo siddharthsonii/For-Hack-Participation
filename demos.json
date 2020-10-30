@@ -19,6 +19,33 @@
     },
     "test": "navigator.getUserMedia !== undefined"
   },
+      "desc": "Stream video to the browser<br><small>Also works on Opera Mobile 12</small>",
+    "url": "gum",
+    "tags": "getUserMedia",
+    "support": {
+      "live": "opera chrome",
+      "nightly": "firefox"
+    },
+    "test": "navigator.getUserMedia !== undefined"
+  },
+      "desc": "Stream video to the browser<br><small>Also works on Opera Mobile 12</small>",
+    "url": "gum",
+    "tags": "getUserMedia",
+    "support": {
+      "live": "opera chrome",
+      "nightly": "firefox"
+    },
+    "test": "navigator.getUserMedia !== undefined"
+  },
+      "desc": "Stream video to the browser<br><small>Also works on Opera Mobile 12</small>",
+    "url": "gum",
+    "tags": "getUserMedia",
+    "support": {
+      "live": "opera chrome",
+      "nightly": "firefox"
+    },
+    "test": "navigator.getUserMedia !== undefined"
+  },
   {
     "desc": "Drag and drop and XHR upload",
     "url": "dnd-upload",
