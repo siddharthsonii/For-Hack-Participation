@@ -10,6 +10,24 @@ class HashMap:
                 for char in str(key):
                         hash += ord(char)
                 return hash % self.size
+	        def __init__(self):
+                self.size = 6
+                self.map = [None] * self.size
+		
+        def _get_hash(self, key):
+                hash = 0
+                for char in str(key):
+                        hash += ord(char)
+                return hash % self.size
+	        def __init__(self):
+                self.size = 6
+                self.map = [None] * self.size
+		
+        def _get_hash(self, key):
+                hash = 0
+                for char in str(key):
+                        hash += ord(char)
+                return hash % self.size
 		
         def add(self, key, value):
                 key_hash = self._get_hash(key)
