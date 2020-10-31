@@ -14,5 +14,12 @@ def hexToDec(hexNum):
 		decNum = decNum + 16 ** power * __getDecDigit(hexNum[digit-1])
 		power += 1
 	print(str(decNum))
+	def hexToDec(hexNum):
+	decNum = 0
+	power = 0
+	for digit in range(len(hexNum), 0, -1):
+		decNum = decNum + 16 ** power * __getDecDigit(hexNum[digit-1])
+		power += 1
+	print(str(decNum))
 	
 hexToDec("A5")
