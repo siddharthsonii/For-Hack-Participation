@@ -57,3 +57,10 @@ p { margin-top: 20px;}
   </video><canvas></canvas>
   <p>
       <video height="360" width="
+<body>
+  <video height="360" width="480">
+    <source src="assets/dizzy.mp4" />
+    <source src="assets/dizzy.ogv" />
+  </video><canvas></canvas>
+  <p>
+      <video height="360" width="
